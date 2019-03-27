@@ -3,7 +3,7 @@ FROM centos:centos7
 LABEL mapr.os=centos7 mapr.version=6.1.0 mapr.mep_version=6.1.0
 
 ARG http_proxy="http://interneta:8080/"
-ARG https_proxy="https://interenta:8080/"
+ARG https_proxy="https://interneta:8080/"
 ARG MAPR_VERSION_CORE="6.0.1"
 ARG MAPR_VERSION_MEP="5.0.0"
 ARG MAPR_VERSION_DSR="v1.3.2"
